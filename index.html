@@ -9,35 +9,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-   
+
 </head>
 
 <body>
     <div id="logo-box">
-    
-    </div>
+        <h1>SORTEADOR</h1>
+        
+            <main>
+                
+                <section class="input-div">
+                    
+                    <h2>Escolha um número:</h2>
 
-    <div id="main-box">
-        <main>
-            <h1>SORTEADOR</h1>
-            <h2>Escolha um número:</h2>
-
-            <label>
-                <p><strong>Entre</strong></p>
-                <input type="number" class="input-up">
-            </label>
-            <label>
-                <p><strong>E</strong></p>
-                <input type="number" class="input-down">
-            </label>
-
-            <section>
+                    <label>
+                        <p><strong>Entre</strong></p>
+                        <input type="number" class="input-up">
+                    </label>
+                    <label>
+                        <p><strong>E</strong></p>
+                        <input type="number" class="input-down">
+                    </label>
+                </section>
                 <button onclick="generateNumber()" class="draw-button"><strong>SORTEAR</strong></button>
-                <p class="show" id="result">?</p>
-            </section>
+                <section>
+                    
+                    <p class="show" id="result">?</p>
+                </section>
 
-        </main>
+            </main>
+        
     </div>
 </body>
 <script type="text/javascript" src="/script.js"></script>
+
 </html>
